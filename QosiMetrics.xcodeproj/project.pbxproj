@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB070998297DEE4A0020B8C7 /* QSMetrics+Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB070987297DEE4A0020B8C7 /* QSMetrics+Content.swift */; };
+		AB070999297DEE4A0020B8C7 /* QSMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB070988297DEE4A0020B8C7 /* QSMetrics.swift */; };
+		AB07099A297DEE4A0020B8C7 /* QSMetrics+Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB070989297DEE4A0020B8C7 /* QSMetrics+Storage.swift */; };
+		AB07099B297DEE4A0020B8C7 /* QosiMetrics.h in Headers */ = {isa = PBXBuildFile; fileRef = AB07098A297DEE4A0020B8C7 /* QosiMetrics.h */; };
+		AB07099C297DEE4A0020B8C7 /* UIViewController+TopViewControllerDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB07098D297DEE4A0020B8C7 /* UIViewController+TopViewControllerDetection.swift */; };
+		AB07099D297DEE4A0020B8C7 /* UIApplication+TopViewControllerDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB07098E297DEE4A0020B8C7 /* UIApplication+TopViewControllerDetection.swift */; };
+		AB07099E297DEE4A0020B8C7 /* QSLogsItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB070991297DEE4A0020B8C7 /* QSLogsItemCell.xib */; };
+		AB07099F297DEE4A0020B8C7 /* QSLogsItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB070992297DEE4A0020B8C7 /* QSLogsItemCell.swift */; };
+		AB0709A0297DEE4A0020B8C7 /* QSLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB070994297DEE4A0020B8C7 /* QSLogsViewController.xib */; };
+		AB0709A1297DEE4A0020B8C7 /* QSLogDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB070995297DEE4A0020B8C7 /* QSLogDetailsViewController.xib */; };
+		AB0709A2297DEE4A0020B8C7 /* QSLogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB070996297DEE4A0020B8C7 /* QSLogsViewController.swift */; };
+		AB0709A3297DEE4A0020B8C7 /* QSLogDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB070997297DEE4A0020B8C7 /* QSLogDetailsViewController.swift */; };
+		AB3174A02976CA84000FA7BD /* QosiMetrics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3174972976CA84000FA7BD /* QosiMetrics.framework */; };
+		AB3174A52976CA84000FA7BD /* QosiMetricsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3174A42976CA84000FA7BD /* QosiMetricsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB3174A12976CA84000FA7BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB31748E2976CA84000FA7BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB3174962976CA84000FA7BD;
+			remoteInfo = QosiMetrics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB3174C62977058C000FA7BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB070987297DEE4A0020B8C7 /* QSMetrics+Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QSMetrics+Content.swift"; sourceTree = "<group>"; };
+		AB070988297DEE4A0020B8C7 /* QSMetrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSMetrics.swift; sourceTree = "<group>"; };
+		AB070989297DEE4A0020B8C7 /* QSMetrics+Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QSMetrics+Storage.swift"; sourceTree = "<group>"; };
+		AB07098A297DEE4A0020B8C7 /* QosiMetrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QosiMetrics.h; sourceTree = "<group>"; };
+		AB07098D297DEE4A0020B8C7 /* UIViewController+TopViewControllerDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+TopViewControllerDetection.swift"; sourceTree = "<group>"; };
+		AB07098E297DEE4A0020B8C7 /* UIApplication+TopViewControllerDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+TopViewControllerDetection.swift"; sourceTree = "<group>"; };
+		AB070991297DEE4A0020B8C7 /* QSLogsItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QSLogsItemCell.xib; sourceTree = "<group>"; };
+		AB070992297DEE4A0020B8C7 /* QSLogsItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSLogsItemCell.swift; sourceTree = "<group>"; };
+		AB070994297DEE4A0020B8C7 /* QSLogsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QSLogsViewController.xib; sourceTree = "<group>"; };
+		AB070995297DEE4A0020B8C7 /* QSLogDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QSLogDetailsViewController.xib; sourceTree = "<group>"; };
+		AB070996297DEE4A0020B8C7 /* QSLogsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSLogsViewController.swift; sourceTree = "<group>"; };
+		AB070997297DEE4A0020B8C7 /* QSLogDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSLogDetailsViewController.swift; sourceTree = "<group>"; };
+		AB3174972976CA84000FA7BD /* QosiMetrics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QosiMetrics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB31749F2976CA84000FA7BD /* QosiMetricsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QosiMetricsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3174A42976CA84000FA7BD /* QosiMetricsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QosiMetricsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB3174942976CA84000FA7BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB31749C2976CA84000FA7BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3174A02976CA84000FA7BD /* QosiMetrics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB070986297DEE4A0020B8C7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AB070987297DEE4A0020B8C7 /* QSMetrics+Content.swift */,
+				AB070988297DEE4A0020B8C7 /* QSMetrics.swift */,
+				AB070989297DEE4A0020B8C7 /* QSMetrics+Storage.swift */,
+				AB07098A297DEE4A0020B8C7 /* QosiMetrics.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AB07098B297DEE4A0020B8C7 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				AB07098C297DEE4A0020B8C7 /* TopViewControllerDetection */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		AB07098C297DEE4A0020B8C7 /* TopViewControllerDetection */ = {
+			isa = PBXGroup;
+			children = (
+				AB07098D297DEE4A0020B8C7 /* UIViewController+TopViewControllerDetection.swift */,
+				AB07098E297DEE4A0020B8C7 /* UIApplication+TopViewControllerDetection.swift */,
+			);
+			path = TopViewControllerDetection;
+			sourceTree = "<group>";
+		};
+		AB07098F297DEE4A0020B8C7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AB070990297DEE4A0020B8C7 /* Cells */,
+				AB070993297DEE4A0020B8C7 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AB070990297DEE4A0020B8C7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AB070991297DEE4A0020B8C7 /* QSLogsItemCell.xib */,
+				AB070992297DEE4A0020B8C7 /* QSLogsItemCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AB070993297DEE4A0020B8C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB070994297DEE4A0020B8C7 /* QSLogsViewController.xib */,
+				AB070995297DEE4A0020B8C7 /* QSLogDetailsViewController.xib */,
+				AB070996297DEE4A0020B8C7 /* QSLogsViewController.swift */,
+				AB070997297DEE4A0020B8C7 /* QSLogDetailsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB31748D2976CA83000FA7BD = {
+			isa = PBXGroup;
+			children = (
+				AB3174992976CA84000FA7BD /* QosiMetrics */,
+				AB3174A32976CA84000FA7BD /* QosiMetricsTests */,
+				AB3174982976CA84000FA7BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB3174982976CA84000FA7BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB3174972976CA84000FA7BD /* QosiMetrics.framework */,
+				AB31749F2976CA84000FA7BD /* QosiMetricsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB3174992976CA84000FA7BD /* QosiMetrics */ = {
+			isa = PBXGroup;
+			children = (
+				AB070986297DEE4A0020B8C7 /* Classes */,
+				AB07098F297DEE4A0020B8C7 /* UI */,
+				AB07098B297DEE4A0020B8C7 /* Externals */,
+			);
+			path = QosiMetrics;
+			sourceTree = "<group>";
+		};
+		AB3174A32976CA84000FA7BD /* QosiMetricsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB3174A42976CA84000FA7BD /* QosiMetricsTests.swift */,
+			);
+			path = QosiMetricsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AB3174922976CA84000FA7BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB07099B297DEE4A0020B8C7 /* QosiMetrics.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AB3174962976CA84000FA7BD /* QosiMetrics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3174A92976CA84000FA7BD /* Build configuration list for PBXNativeTarget "QosiMetrics" */;
+			buildPhases = (
+				AB3174922976CA84000FA7BD /* Headers */,
+				AB3174932976CA84000FA7BD /* Sources */,
+				AB3174942976CA84000FA7BD /* Frameworks */,
+				AB3174952976CA84000FA7BD /* Resources */,
+				AB3174C62977058C000FA7BD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QosiMetrics;
+			productName = QosiMetrics;
+			productReference = AB3174972976CA84000FA7BD /* QosiMetrics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB31749E2976CA84000FA7BD /* QosiMetricsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3174AC2976CA84000FA7BD /* Build configuration list for PBXNativeTarget "QosiMetricsTests" */;
+			buildPhases = (
+				AB31749B2976CA84000FA7BD /* Sources */,
+				AB31749C2976CA84000FA7BD /* Frameworks */,
+				AB31749D2976CA84000FA7BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB3174A22976CA84000FA7BD /* PBXTargetDependency */,
+			);
+			name = QosiMetricsTests;
+			productName = QosiMetricsTests;
+			productReference = AB31749F2976CA84000FA7BD /* QosiMetricsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB31748E2976CA84000FA7BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AB3174962976CA84000FA7BD = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+					AB31749E2976CA84000FA7BD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = AB3174912976CA84000FA7BD /* Build configuration list for PBXProject "QosiMetrics" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB31748D2976CA83000FA7BD;
+			productRefGroup = AB3174982976CA84000FA7BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB3174962976CA84000FA7BD /* QosiMetrics */,
+				AB31749E2976CA84000FA7BD /* QosiMetricsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB3174952976CA84000FA7BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0709A1297DEE4A0020B8C7 /* QSLogDetailsViewController.xib in Resources */,
+				AB07099E297DEE4A0020B8C7 /* QSLogsItemCell.xib in Resources */,
+				AB0709A0297DEE4A0020B8C7 /* QSLogsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB31749D2976CA84000FA7BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB3174932976CA84000FA7BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB07099D297DEE4A0020B8C7 /* UIApplication+TopViewControllerDetection.swift in Sources */,
+				AB070998297DEE4A0020B8C7 /* QSMetrics+Content.swift in Sources */,
+				AB07099C297DEE4A0020B8C7 /* UIViewController+TopViewControllerDetection.swift in Sources */,
+				AB07099A297DEE4A0020B8C7 /* QSMetrics+Storage.swift in Sources */,
+				AB0709A3297DEE4A0020B8C7 /* QSLogDetailsViewController.swift in Sources */,
+				AB0709A2297DEE4A0020B8C7 /* QSLogsViewController.swift in Sources */,
+				AB070999297DEE4A0020B8C7 /* QSMetrics.swift in Sources */,
+				AB07099F297DEE4A0020B8C7 /* QSLogsItemCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB31749B2976CA84000FA7BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3174A52976CA84000FA7BD /* QosiMetricsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB3174A22976CA84000FA7BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB3174962976CA84000FA7BD /* QosiMetrics */;
+			targetProxy = AB3174A12976CA84000FA7BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB3174A72976CA84000FA7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB3174A82976CA84000FA7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB3174AA2976CA84000FA7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QosiMetrics",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qosi.QosiMetrics;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB3174AB2976CA84000FA7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QosiMetrics",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qosi.QosiMetrics;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB3174AD2976CA84000FA7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qosi.QosiMetricsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB3174AE2976CA84000FA7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qosi.QosiMetricsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB3174912976CA84000FA7BD /* Build configuration list for PBXProject "QosiMetrics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3174A72976CA84000FA7BD /* Debug */,
+				AB3174A82976CA84000FA7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3174A92976CA84000FA7BD /* Build configuration list for PBXNativeTarget "QosiMetrics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3174AA2976CA84000FA7BD /* Debug */,
+				AB3174AB2976CA84000FA7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3174AC2976CA84000FA7BD /* Build configuration list for PBXNativeTarget "QosiMetricsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3174AD2976CA84000FA7BD /* Debug */,
+				AB3174AE2976CA84000FA7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB31748E2976CA84000FA7BD /* Project object */;
+}
